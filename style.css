@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: optima;
-    src: url("/Sources/Optima.ttc");
+    src: url("Optima.ttc");
 }
 
 body{
-    background: url(/Sources/1.jpg);
+    background: url(1.jpg);
     background-color: rgba(255, 255, 255,0.1);
     background-blend-mode:color-burn;
     /* animation: chbg 15s infinite alternate; */
@@ -14,7 +14,7 @@ body{
 }
 
 #a1{
-    background: url(/Sources/2.jpeg);
+    background: url(2.jpeg);
     background-color: rgba(255, 255, 255,0.1);
     background-blend-mode:color-burn;
     /* animation: chbg 15s infinite alternate; */
@@ -23,13 +23,13 @@ body{
 
 /* @keyframes chbg {
     0% {
-      background:url(/Sources/1.jpg);
+      background:url(1.jpg);
     background-size:100%;
     }
 
 
     100% {
-      background:url(/Sources/2.png);
+      background:url(2.jpeg);
     background-size:100%;
     }
   } */
