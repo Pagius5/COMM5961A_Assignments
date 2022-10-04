@@ -10,16 +10,59 @@ body{
     background-color: rgba(255, 255, 255,0.1);
     background-blend-mode:color-burn;
     /* animation: chbg 15s infinite alternate; */
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
 
 #a1{
-    background: url(2.jpeg);
+    background: url(2.jpg);
     background-color: rgba(255, 255, 255,0.1);
     background-blend-mode:color-burn;
     /* animation: chbg 15s infinite alternate; */
     background-size: cover;
 }
+
+#a2{
+    background: url(3.jpg);
+    background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn;
+    /* animation: chbg 15s infinite alternate; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#a3{
+    background: url(4.jpg);
+    background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn;
+    /* animation: chbg 15s infinite alternate; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#a4{
+    background: url(5.jpg);
+    background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn;
+    /* animation: chbg 15s infinite alternate; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#a5{
+    background: url(6.jpg);
+    background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn;
+    /* animation: chbg 15s infinite alternate; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
 
 /* @keyframes chbg {
     0% {
@@ -54,7 +97,7 @@ nav{
 
 .glass{
     /* background-color: rgba(255, 255, 255);
-    backdrop-filter: blur(10px); */
+    backdrop-filter: blur(7px); */
 
     display:block;
     position:absolute;
@@ -62,8 +105,8 @@ nav{
     top:0;
     width:1920px;
     height:100%;
-    backdrop-filter:blur(20px);
-    background-color:rgba(0,0,0,0.35);
+    backdrop-filter:blur(7px);
+    background-color:rgba(0,0,0,0.5);
     z-index: -1;
 }
 
@@ -104,20 +147,20 @@ li {
     font-size: 20px;
 }
 
-li a:hover{
+/* li a:hover{
     color:rgb(175, 175, 175);
-}
+} */
 
 /* 2. Main */
 .intro{
     /* font-family: 'Noto Sans', sans-serif;     */
     font-family: optima;
     color: white;
-    padding-top: 35%;
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-top: 35%;
+    padding-top: 7%;
+    margin-left: 200px;
 
-    /* text-shadow: 0px 0px 3px black; */
+    text-shadow: 0 0 5px rgb(0 0 0 / 70%);
 }
 
 
@@ -155,4 +198,14 @@ footer a:hover .dot{
 
 footer a{
     color: black;
+}
+
+
+
+
+
+
+/* test */
+picture img{
+    width: 100%;
 }
