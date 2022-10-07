@@ -106,7 +106,7 @@ nav{
     width:1920px;
     height:100%;
     backdrop-filter:blur(7px);
-    background-color:rgba(0,0,0,0.5);
+    background-color:rgba(50,50,50,0.6);
     z-index: -1;
 }
 
