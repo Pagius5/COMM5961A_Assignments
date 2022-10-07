@@ -7,8 +7,8 @@
 
 body{
     background: url(1.jpg);
-    background-color: rgba(255, 255, 255,0.1);
-    background-blend-mode:color-burn;
+    /* background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn; */
     /* animation: chbg 15s infinite alternate; */
     background-size: 100%;
     background-repeat: no-repeat;
@@ -17,16 +17,16 @@ body{
 
 #a1{
     background: url(2.jpg);
-    background-color: rgba(255, 255, 255,0.1);
-    background-blend-mode:color-burn;
+    /* background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn; */
     /* animation: chbg 15s infinite alternate; */
     background-size: cover;
 }
 
 #a2{
     background: url(3.jpg);
-    background-color: rgba(255, 255, 255,0.1);
-    background-blend-mode:color-burn;
+    /* background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn; */
     /* animation: chbg 15s infinite alternate; */
     background-size: 100%;
     background-repeat: no-repeat;
@@ -35,8 +35,8 @@ body{
 
 #a3{
     background: url(4.jpg);
-    background-color: rgba(255, 255, 255,0.1);
-    background-blend-mode:color-burn;
+    /* background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn; */
     /* animation: chbg 15s infinite alternate; */
     background-size: 100%;
     background-repeat: no-repeat;
@@ -45,8 +45,8 @@ body{
 
 #a4{
     background: url(5.jpg);
-    background-color: rgba(255, 255, 255,0.1);
-    background-blend-mode:color-burn;
+    /* background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn; */
     /* animation: chbg 15s infinite alternate; */
     background-size: 100%;
     background-repeat: no-repeat;
@@ -55,8 +55,8 @@ body{
 
 #a5{
     background: url(6.jpg);
-    background-color: rgba(255, 255, 255,0.1);
-    background-blend-mode:color-burn;
+    /* background-color: rgba(255, 255, 255,0.1);
+    background-blend-mode:color-burn; */
     /* animation: chbg 15s infinite alternate; */
     background-size: 100%;
     background-repeat: no-repeat;
