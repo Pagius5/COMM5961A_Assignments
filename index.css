@@ -20,7 +20,9 @@ body{
     /* background-color: rgba(255, 255, 255,0.1);
     background-blend-mode:color-burn; */
     /* animation: chbg 15s infinite alternate; */
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
 
 #a2{
