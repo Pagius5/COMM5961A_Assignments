@@ -38,7 +38,7 @@
     <!--2. Main-->
     <main>
         <div class="intro" id="anchor_a2">
-            <h2 style="font-size: 50px;">MAMMA MIA! MORE PASTA! 🤌</h2>
+            <h2 style="font-size: 50px;">MAMMA MIA! MORE PASTA!</h2>
             <p style="font-size: 16px; margin-top: -35px;">Today, I'm gonna find out the exact restaurant with the most types of pasta in Hong Kong! All hail the pasta!</p>
         </div>
 
@@ -58,19 +58,19 @@
 
             <p>As a fanatic of Italian food, I don't like pizza, espresso (coffee), or gelato (ice cream). Instead, I'm crazy about pasta. There are about 200 types of them, with unique geometry and history.</p>
 
-            <p>So, here comes the question. <b><u>What is the exact Italian food restaurant in Hong Kong, that provides the most types of Pasta?</u></b></p>
+            <p>So, here comes the question. <b><u>What is the exact Italian restaurant in Hong Kong, that provides the most types of Pasta?</u></b></p>
 
             <h2 style="font-size: 30px;">Procedure</h2>
 
             <p>Our <b><u>web scraping</u></b> target is OpenRice. There are about 949 Italian restaurants marked on the food guide website. Get the title and some supplementary information. Then, click into the restaurant page and get the menu. Simple and clear as it sounds.</p>
 
-            <p>Unfortunately, as I was planning to acquire all of them, Parsehub has the quota of only 200 pages. Also, I have to click into the restaurant page, and then the menu page. So, there are far fewer restaurants to get. Finally, I got 96 restaurants. Not so bad.</p>
+            <p>Unfortunately, as I was planning to acquire all of them, Parsehub has the quota of only 200 pages. Also, I have to click into the restaurant page, and then the menu page. So, there are far fewer restaurants to get. Finally, I got 96 restaurants. Not so bad, and not so good.</p>
 
             <p style="text-align: center;"><img src="screen_1.png" width="800px"></p>
 
-            <p><b><u>Data cleaning</u></b> is really a tortue. The original data is a complete mess. OpenRedine is not enough. I have to use Python to organize the menus, and use for loop and find function to count the pasta types for each restaurant. Then the final csv file is exported with Python.</p>
+            <p><b><u>Data cleaning</u></b> is really a tortue. The original data is a complete mess. OpenRefine is not enough, and I have to use Python to organize the menus, using the for loop and find function to count the pasta types for each restaurant. Then the final csv file is exported with Python.</p>
 
-            <p><b><u>Data analysis</u></b> is a quite easier. I rank these restaurants by pasta types, and also count them by pasta types.</p>
+            <p><b><u>Data analysis</u></b> is quite easier. I rank these restaurants by pasta types, and also count them separately by the number of types.</p>
 
             <p>The result, however, is a bit astonishing.</p>
 
@@ -84,11 +84,11 @@
 
             <p style="text-align: center;"><img src="Pic_2.png" width="600px"></p>
 
-            <p>Findings: Too few pasta types. Most of the restaurants have no text menus.</p>
+            <p>Findings: There are Too few pasta types. Most of the restaurants have no text menus.</p>
 
             <p>Improvements: Use OCR technique to deal with these images.</p>
 
-            <p>Finally, I might give <b><u>Plato Cafe & Bistro</u></b> and <b><u>Hami Harmony</u></b> a try.</p>
+            <p>Suggestions: I might give <b><u>Plato Cafe & Bistro</u></b> and <b><u>Hami Harmony</u></b> a try.</p>
 
 
 
