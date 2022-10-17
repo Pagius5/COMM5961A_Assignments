@@ -38,35 +38,66 @@
     <!--2. Main-->
     <main>
         <div class="intro" id="anchor_a2">
-            <h2 style="font-size: 50px;">MAMA MIA!</h2>
-            <p style="font-size: 16px; margin-top: -35px;">La vita è una combinazione di magia e pasta.</p>
+            <h2 style="font-size: 50px;">MAMMA MIA! MORE PASTA! 🤌</h2>
+            <p style="font-size: 16px; margin-top: -35px;">Today, I'm gonna find out the exact restaurant with the most types of pasta in Hong Kong! All hail the pasta!</p>
         </div>
 
         <div style="font-size: 18px; font-family: optima; color: #222330; margin-top: 100px; margin-left: 200px; margin-right: 200px;">
 
-            <h2 style="font-size: 30px;">Ecclesiastes</h2>
+            <h2 style="font-size: 30px;">Introduction</h2>
 
-            <p>1:1	  	The words of the Preacher, the son of David, king in Jerusalem.</p>
+            <p>Do you know pasta?</p>
+
+            <p>Yes, of course you do.</p>
                         
-            <p>1:2	  	Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity.</p>
+            <p>What about Ravioli, Fusilli, and Orecchiette then?</p>
+
+            <p>Well, It might be a little tricky here.</p>
+
+            <p style="text-align: center;"><img src="Types-of-Pasta.jpeg" width="600px"></p>
+
+            <p>As a fanatic of Italian food, I don't like pizza, espresso (coffee), or gelato (ice cream). Instead, I'm crazy about pasta. There are about 200 types of them, with unique geometry and history.</p>
+
+            <p>So, here comes the question. <b><u>What is the exact Italian food restaurant in Hong Kong, that provides the most types of Pasta?</u></b></p>
+
+            <h2 style="font-size: 30px;">Procedure</h2>
+
+            <p>Our <b><u>web scraping</u></b> target is OpenRice. There are about 949 Italian restaurants marked on the food guide website. Get the title and some supplementary information. Then, click into the restaurant page and get the menu. Simple and clear as it sounds.</p>
+
+            <p>Unfortunately, as I was planning to acquire all of them, Parsehub has the quota of only 200 pages. Also, I have to click into the restaurant page, and then the menu page. So, there are far fewer restaurants to get. Finally, I got 96 restaurants. Not so bad.</p>
+
+            <p style="text-align: center;"><img src="screen_1.png" width="800px"></p>
+
+            <p><b><u>Data cleaning</u></b> is really a tortue. The original data is a complete mess. OpenRedine is not enough. I have to use Python to organize the menus, and use for loop and find function to count the pasta types for each restaurant. Then the final csv file is exported with Python.</p>
+
+            <p><b><u>Data analysis</u></b> is a quite easier. I rank these restaurants by pasta types, and also count them by pasta types.</p>
+
+            <p>The result, however, is a bit astonishing.</p>
+
+            <h2 style="font-size: 30px;">Result</h2>
+
+            <p>What on earth that <b><u>4</u></b> is the largest number for these restaurants?</p>       
+
+            <p style="text-align: center;"><img src="Pic_1.png" width="600px"></p>
+
+            <p>It is true that many of these restaurants only have menu photos, which is marked as -1 by me. This, of course, can be further tackled by OCR (Optical character recognition), which I don't have time to do right now. However, I have checked these pictures, and the pasta types are also scarce. Also, Text menu for online websites is not hard to do. Why don't they update the menu? I checked Yelp, which is a United States food guide website, and most of the restaurants have text menus.</p>
+
+            <p style="text-align: center;"><img src="Pic_2.png" width="600px"></p>
+
+            <p>Findings: Too few pasta types. Most of the restaurants have no text menus.</p>
+
+            <p>Improvements: Use OCR technique to deal with these images.</p>
+
+            <p>Finally, I might give <b><u>Plato Cafe & Bistro</u></b> and <b><u>Hami Harmony</u></b> a try.</p>
+
+
+
+
+
+
             
-            <p>1:3	  	What profit hath a man of all his labour which he taketh under the sun?</p>
 
-            <p>1:4	  	One generation passeth away, and another generation cometh: but the earth abideth for ever.</p>
-                        
-            <p>1:5	  	The sun also ariseth, and the sun goeth down, and hasteth to his place where he arose.</p>
             
-            <p>1:6	  	The wind goeth toward the south, and turneth about unto the north; it whirleth about continually, and the wind returneth again according to his circuits.</p>
-
-            <p>1:7	  	All the rivers run into the sea; yet the sea is not full; unto the place from whence the rivers come, thither they return again.</p>
-                        
-            <p>1:8	  	All things are full of labour; man cannot utter it: the eye is not satisfied with seeing, nor the ear filled with hearing.</p>
-            
-            <p>1:9	  	The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.</p>
-
-            <p>1:10	  	Is there any thing whereof it may be said, See, this is new? it hath been already of old time, which was before us.</p>
-
-            <p>1:11	  	There is no remembrance of former things; neither shall there be any remembrance of things that are to come with those that shall come after.</p>
         
         </div>
 
